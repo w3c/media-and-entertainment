@@ -22,32 +22,6 @@ Neither [ISO BMFF Byte Stream Format](https://www.w3.org/2013/12/byte-stream-for
 
 The timing guarantees provided in HTML5 regarding the triggering of TextTrackCue events may be not be enough to avoid [events being missed](https://lists.w3.org/Archives/Public/public-inbandtracks/2013Dec/0004.html).
 
-## Use case: Support for subtitle and caption formats other than WebVTT
-
-Although WebVTT is [widely supported](https://caniuse.com/#feat=webvtt) by the mainstream browser engines, many content providers use other formats such as TTML, IMSC, or the US FCC-mandated 608 and 708 closed caption formats, to deliver subtitles and captions to web clients. These formats are not supported natively by mainstream browser engines, therefore must be parsed and rendered at the web application level.
-
-Native rendering by the browser engine is preferable to application rendering, to synchronise the display of subtitles and captions, and apply user preferences at the UA level.
-
-Reference: TPAC 2017 breakout session 8 Nov 2017: [Minutes](https://www.w3.org/2017/11/08-texttrack-minutes.html), TPAC 2016 breakout session 21 Sep 2016: [Minutes](https://www.w3.org/2016/09/21-texttrack-minutes.html)
-
-### Gap analysis
-
-A solution could be for cue parsing to be done at the application level, with cue data passed to the UA in some canonical format for rendering. This allows app developers to use their preferred cue format, while retaining the UA's ability to control the triggering and synchronisation of the cues.
-
-There is currently no agreed model for applying user preferences to how cues are rendered. 
-
-The `TextTrackCue` interface has no constructor, so the generic concept of a text track cue cannot be used and extended by scripts; only the `VTTCue` constructor is widely implemented.
-
-The TextTracks in MSE are not implemented in mainstream browsers.
-
-Both W3C HTML 5.3 draft and WHATWG HTML reference [Sourcing In-band Media Resource Tracks from Media Containers into HTML (Unofficial Draft)](https://dev.w3.org/html5/html-sourcing-inband-tracks/), which says:
-
-> Browsers that can render text tracks in the TTML format should expose an as yet to be defined `TTMLCue`. Alternatively, browsers can also map the TTML features to `VTTCue` objects. Finally, browsers that cannot render TTML format data should expose them as `DataCue` objects.
-
-The WHATWG reference is normative, and the HTML 5.3 reference is (more appropriately) informative.
-
-`TTMLCue` never was defined and (as already mentioned) `DataCue` is not implemented.
-
 ## Use case: Synchronised rendering of web resources
 
 TODO: Add a user-oriented description of the use case, e.g, frame-accurate rendering of web content alongside audio/video.
