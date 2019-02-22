@@ -67,7 +67,7 @@
 
 
     <main>
-      <h1 id="title">Proposed Media and Entertainment Interest Group Charter</h1>
+      <h1 id="title"><span class="todo">Proposed</span> Media and Entertainment Interest Group Charter</h1>
 
       <p class="mission">The <strong>mission</strong> of the <a
         href="/2011/webtv/">Media and Entertainment Interest Group</a>,
@@ -80,13 +80,13 @@
       </p>
 
       <div class="noprint">
-        <p class="join"><a href="http://www.w3.org/2004/01/pp-impl/46300/join">Join the
+        <p class="join"><a href="http://www.w3.org/2004/01/pp-impl/46300/join">Join the Media and Entertainment Interest Group</a>.</p>
       </div>
 
          <p style="padding: 0.5ex; border: 1px solid green"> This proposed charter is available
       on <a href="https://github.com/w3c/media-and-entertainment/charters/charter-2019.html">GitHub</a>.
 
-    Feel free to raise <a href="https://github.com/w3c/media-ad-entertainment/issues">issues</a></i>.
+    Feel free to raise <a href="https://github.com/w3c/media-and-entertainment/issues">issues</a></i>.
           </p>
 
       <section id="details">
@@ -155,8 +155,9 @@
           The Media and Entertainment Interest Group's scope covers Web technologies used
           in the end-to-end pipeline
           &mdash; including capture, production, distribution and consumption &mdash; 
-          of continuous media, which is here defined as videos, sound recordings, and their associated
-          technologies such as timed text.
+          of continuous experiences, which are here defined as videos, sound recordings, associated
+          technologies such as timed text, and input/output mechanisms used to
+          engage users.
         </p>
 
         <p>Topics and areas that are in-scope for the Interest Group include:</p>
@@ -214,11 +215,12 @@
 
         <p>
           Within the Media and Entertainment Interest Group, the
-          <a href="https://www.w3.org/2011/webtv/wiki/Main_Page/Cloud_Browser_TF">Cloud
-          Browser Task Force</a> enables support for web browser technology
-          within low-end devices such as HDMI dongles and lightweight STBs
-          (set-top boxes) that may not be able to run a browser locally, by
-          shifting the browser execution to the cloud. The Interest Group may
+          <a href="https://www.w3.org/2011/webtv/wiki/Main_Page/Media_Timed_Events_TF">Media
+          Timed Events Task Force</a> investigates use cases and technical
+          requirements for improved support for timed events related to audio or
+          video media on the web, where synchronization to a playing audio or
+          video media stream is needed, and makes recommendations for new or
+          changed web APIs to realize these requirements. The Interest Group may
           create additional task forces to investigate specific topics and
           develop a common understanding of architectural implications and
           requirements the topic triggers.
@@ -294,6 +296,22 @@
             <li>Test suite and implementation report for the specification;</li>
             <li>Primer or Best Practice documents to support web developers when designing applications.</li>
           </ul>
+          <p>
+            As of the day of chartering, the Media and Entertainment Interest
+            Group is working on the following documents:
+          </p>
+          <ul>
+            <li><a href="https://w3c.github.io/me-media-timed-events/">Media
+            Timed Events</a> &mdash; describes use cases, requirements, and
+            recommendations for improved support for timed events related to
+            audio or video media on the web. This document is being developed by
+            the Media Timed Events Task Force.</li>
+            <li><a href="https://w3c.github.io/me-vision/">A perspective on
+            Media &amp; Entertainment for the Web</a> &mdash; provides an
+            analysis of the Media &amp; Entertainment industry and identifies
+            shorter and longer-term trends that could influence web
+            technologies.</li>
+          </ul>
         </div>
 
         <div id="timeline">
@@ -309,7 +327,21 @@
         <p>For all topics discussed within the group, this
           Interest Group will seek <a href="https://www.w3.org/Guide/Charter.html#horizontal-review">horizontal review</a> for accessibility, internationalization, performance, privacy, and security with the relevant Working and Interest Groups, and with the <a href="https://www.w3.org/2001/tag/" title="Technical Architecture Group">TAG</a>.</p>
 
-        <p>Additional technical coordination around media topics with the following Groups will be made, per the <a href="https://www.w3.org/2017/Process-20170301/#WGCharter">W3C Process Document</a>:</p>
+        <p>The scope of the Media and Entertainment Interest Group includes
+          tracking and review of media-related deliverables developed by other
+          W3C groups, as well as coordination with other organizations in the
+          media industry. As such, the Media and Entertainment intends to
+          coordinate around media topics with other groups and organizations as
+          needed, per the
+          <a href="https://www.w3.org/Consortium/Process/#WGCharter">W3C
+          Process Document</a>. As of the day of chartering, the following
+          groups and organizations have been identified. Changes to these lists
+          will be documented on the
+          <a href="https://www.w3.org/2011/webtv/">Interest Group's home
+          page</a>.</p>
+
+
+        <p>Additional technical coordination around media topics with the following Groups will be made, per the :</p>
 
         <div>
           <h3 id="w3c-coordination">W3C Groups</h3>
@@ -323,19 +355,13 @@
             <dd>The Audio Working Group develops the <a href="https://www.w3.org/TR/webaudio/">Web Audio API</a> specification for processing and synthesizing audio in web applications.</dd>
 
             <dt><a href="https://www.w3.org/auto/wg/">Automotive WG</a> and <a href="https://www.w3.org/community/autowebplatform/">Automotive and Platform Business Group</a></dt>
-            <dd>Both groups develop specifications and use cases for media players embeded in in-vehicle infotainment systems.</dd>
+            <dd>Both groups develop specifications and use cases for media players embedded in in-vehicle infotainment systems.</dd>
 
             <dt><a href="https://www.w3.org/Style/CSS/members">CSS WG</a></dt>
             <dd>The CSS Working Group develops specifications that are of particular interest to media companies such as efforts to bring High Dynamic Range (HDR) content and Wide-gamut colors to the web.</dd>
-            
-            <dt><a href="https://www.w3.org/2009/dap/">Device and Sensors WG</a> and <a href="https://www.w3.org/2011/04/webrtc/">Web Real-Time Communications WG</a></dt>
-            <dd>The Device and Sensors Working Group and the Web Real-Time Communications Working Group jointly develop APIs for media capture, media recording and media processing.</dd>
 
-            <dt><a href="https://www.w3.org/html/wg/">HTML Media Extensions WG</a></dt>
-            <dd>The HTML Media Extensions Working Group develops the <a href="https://www.w3.org/TR/media-source/">Media Source Extensions</a> and the <a href="https://www.w3.org/TR/encrypted-media/">Encrypted Media Extensions</a> specifications, for which the Media and Entertainment IG contributed use cases and requirements.</dd>
-
-            <dt><a href="https://www.w3.org/2016/poe/">Permissions and Obligations Expression WG</a></dt>
-            <dd>The Permissions and Obligations Expression (POE) Working Group develops the <a href="https://www.w3.org/TR/odrl-model/">ODRL (Open Digital Rights Language) information Model</a> and <a href="https://www.w3.org/TR/odrl-vocab/">Vocabulary</a> for expressing policies for media asset usage and distribution.</dd>
+            <dt><a href="https://www.w3.org/immersive-web/">Immersive Web Working Group</a></dt>
+            <dd>The Immersive Web Working Group develops APIs to interact with XR devices and sensors in browsers.</dd>
 
             <dt><a href="https://www.w3.org/2014/secondscreen/">Second Screen WG</a></dt>
             <dd>The Second Screen Working Group develops specifications that allows a web page to request display and take control of a second screen.</dd>
@@ -343,11 +369,11 @@
             <dt><a href="https://www.w3.org/AudioVideo/TT/">Timed Text WG</a></dt>
             <dd>The Timed Text Working Group develops media captioning specifications.</dd>
 
-            <dt><a href="https://www.w3.org/2016/tvcontrol/">TV Control WG</a></dt>
-            <dd>The TV Control Working Group defines an API for sourcing audio and video media from broadcast, IPTV or other sources, and allowed presentation of the media using the HTML5 media player.</dd>
-
             <dt><a href="https://www.w3.org/WebPlatform/WG">Web Platform WG</a></dt>
             <dd>The Web Platform Working Group develops the core HTML standard that specifies the media player of the web platform. The group also develops other interfaces that are particularly relevant for the media industry, such as the <code>KeyboardEvent</code> interface with dedicated keys and values for TV/media remote controls.</dd>
+
+            <dt><a href="https://www.w3.org/2011/04/webrtc/">Web Real-Time Communications WG</a></dt>
+            <dd>The Web Real-Time Communications Working Group develops APIs for media capture, media recording and media processing.</dd>
 
 <!-- CGs -->
             <dt><a href="https://www.w3.org/community/colorweb/">Color on the Web CG</a></dt>
@@ -370,8 +396,8 @@
             <dt><a href="https://www.w3.org/community/webscreens/">Second Screen CG</a></dt>
             <dd>The Second Screen Community Group, companion group of the Second Screen Working Group, discusses the development of an Open Screen Protocol to improve the interoperability between first and second screens.</dd>
 
-            <dt><a href="https://www.w3.org/community/wicg/">Web Incubator CG</a></dt>
-            <dd>The Web Incubator Community Group incubates anumber of proposals from the community, including media-relevant ideas such as <a href="https://wicg.github.io/mediasession/">Media Session</a>, <a href="https://discourse.wicg.io/t/canvas-color-spaces-wide-gamut-and-high-bit-depth-rendering/1505">Canvas Color Spaces</a>, and potential updates to the Media Source Extensions and Encrypted Media Extensions specifications.</dd>
+            <dt><a href="https://www.w3.org/community/wicg/">Web Platform Incubator CG</a></dt>
+            <dd>The Web Platform Incubator Community Group incubates a number of proposals from the community, including media-relevant ideas such as <a href="https://wicg.github.io/mediasession/">Media Session</a>, <a href="https://discourse.wicg.io/t/canvas-color-spaces-wide-gamut-and-high-bit-depth-rendering/1505">Canvas Color Spaces</a>, and updates to the Media Source Extensions and Encrypted Media Extensions specifications.</dd>
 
             <dt><a href="https://www.w3.org/community/webmediaapi/">Web Media API CG</a></dt>
             <dd>The Web Media API Community Group incubates a minimum set of web technologies that developers of media web applications can rely on being supported across devices. The group was proposed by and continues to cooperate with the <a href="https://standards.cta.tech/kwspub/wave/">CTA WAVE Project</a>.</dd>
@@ -389,7 +415,7 @@ in scope for the Media and Entertainment IG. The Interest Group should determine
 communicate with and then maintain communication with them. The following
 groups are likely to be important: </p>
           <dl>
-            <dt><a href="http://aolmedia.org/">Alliance for Open Media</a></dt>
+            <dt><a href="http://aomedia.org/">Alliance for Open Media</a></dt>
             <dd>The Alliance for Open Media is founded by leading Internet
             companies focused on developing next-generation media formats,
             codecs and technologies.</dd>
@@ -429,13 +455,7 @@ groups are likely to be important: </p>
                 WAVE project</a>, which led to the development of a
                 common HTML5 baseline for media web applications in
                 the <a href="https://www.w3.org/Community/webmediaapi">Web
-                Web Media API Community Group</a>.</dd>
-
-            <dt>DECE (a.k.a <a href="https://www.myuv.com/">UltraViolet</a>)</dt>
-            <dd>The Digital Entertainment Content Ecosystem is a consortium of major
-                Hollywood studios, consumer electronics manufacturers and retailers,
-                network hardware vendors, system integrators, and Digital Rights
-                Management (DRM) vendors.</dd>
+                Media API Community Group</a>.</dd>
 
             <dt><a href="http://www.dvb.org">DVB Project</a></dt>
             <dd>The Digital Video Broadcasting Project is an industry-led
@@ -694,7 +714,7 @@ groups are likely to be important: </p>
               </tr>
               <tr>
                 <th>
-                  <a href="">Rechartered</a>
+                  <a href="https://www.w3.org/2017/03/webtv-charter.html">Rechartered</a>
                 </th>
                 <td>
                   13 June 2017
@@ -725,7 +745,11 @@ groups are likely to be important: </p>
                 </td>
                 <td>
                   <ul>
-                    <li>TBD</li>
+                    <li>Media Timed Events Task Force and deliverable mentioned</li>
+                    <li>Perspective document added to the list of deliverables</li>
+                    <li>List of groups and organizations refreshed</li>
+                    <li>Dynamic nature of liaisons noted</li>
+                    <li>Scope wording slightly adjusted to talk about "continuous experience", notably to clarify that interactivity is in scope</li>
                   </ul>
                 </td>
               </tr>
