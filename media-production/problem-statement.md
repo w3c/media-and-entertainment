@@ -51,6 +51,10 @@ Stakeholders
 Contact
 -------
 
-[Chris Needham](chris.needham@bbc.co.uk)
-[Pierre-Anthony Lemieux](pal@sandflow.com)
-[Tatsuya Igarashi](Tatsuya.Igarashi@sony.com)
+Interested parties are encouraged to get in touch with the group, either through [GitHub issues](https://github.com/w3c/media-and-entertainment/issues) or the group's [public mailing-list](mailto:public-web-and-tv@w3.org). You may also contact the group's chairs or W3C team:
+
+* [Chris Needham](chris.needham@bbc.co.uk) - Chair
+* [Pierre-Anthony Lemieux](pal@sandflow.com) - Chair
+* [Tatsuya Igarashi](Tatsuya.Igarashi@sony.com) - Chair
+* [Kazuyuki Ashimura](ashimura@w3.org) - W3C team
+* [Francois Daoust](fd@w3.org) - W3C team
