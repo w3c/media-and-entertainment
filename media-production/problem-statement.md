@@ -27,7 +27,7 @@ Potential topics
 
 * Support for HDR and WCG color spaces, e.g. P3D65, etc.
 
-* In general, media playback on the Web usually favors user experience over fidelity to the initial content. Professional media application need to run in high-fidelity mode, e.g. for timed text. Can new features or new technologies help in this regard?
+* In general, media playback on the Web usually favors user experience over fidelity to the initial content. Professional media applications need to run in high-fidelity mode, e.g. for timed text. Can new features or new technologies help in this regard?
 
 * Are there specific formats that professional media applications need to support? Are these formats suitable for use in Web browsers?
 
