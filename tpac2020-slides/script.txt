@@ -1,0 +1,75 @@
+# Slide 1
+
+Hi there. Welcome to this year's TPAC, which is brought to you from desk chairs and couches around the world.
+
+
+# Slide 2
+
+My name is Pierre-Anthony Lemieux and I am based in San Francisco, California.
+
+This is a brief overview of the Media and Entertainment Interest Group, which I co-chair with Chris Needham from the BBC and Tatsuya Igarashi from Sony.
+
+
+# Slide 3
+
+The IG is a hub for all activities related to media playback and authoring on the web
+
+The IG was formed back in 2011, when it was called the Web and TV IG, just as TV was making its way to the web
+
+The IG now has 52 member entities from across the community.
+
+
+# Slide 4
+
+The activities of the IG centers around developing requirements for new media features on the web platform.
+
+As part of these activities, the IG reviews proposed specifications and coordinates with external organizations, some of which you might have heard of like MPEG, DASH-IF, CTA, SMPTE.
+
+The objective is to make it easy to use the web platform for media experiences worldwide.
+
+
+# Slide 5
+
+For example, the IG has recently reviewed a client-side video editing API specification and a web codecs API specification
+
+Going back in time, the IG was involved with specifications such as Picture-in-Picture.
+
+It was also the primary driver in the development of the Media Source Extension and Encrypted Media Extensions specifications
+
+
+# Slide 6
+
+Another recent activity has been the development of requirements for media time events, with the objective of allowing application to synchronize events precisely with audio and video playback.
+
+The output of this activity is taking shape in the form of the DataCue API currently being refined by the Web Incubator Community Group (WICG).
+
+This activity is being conducted in collaboration with the DASH Industry Forum, which is an example of work with external organizations that I mentioned earlier. 
+
+
+# Slide 7
+
+The IG is also tackling requirements for bullet chatting (or danmu), which is a shared experience where user comments are overlaid in real-time over a video -- think of twitch chat over video. The question raised is whether the web platform has the necessary hooks to supports that experience.
+
+
+# Slide 8
+
+Last but not least, the IG is currently exploring two emerging areas.
+
+The first one is driven by professional production assets moving to the cloud -- something unimaginable just a few years ago. This is in turn driving the need to web-based production tools.
+
+While the web platform makes it possible for everyone to watch tv online, creating tv content requires more advanced capabilities like support for professional video codecs and super-accurate media synchronization.
+
+This is an area where the IG is actively looking for the right participants, so please reach out if you are interested.
+
+
+# Slide 9
+
+Another area of interest is improving interoperability between media players, which, for instance, must deal with limited hardware decoding resources.
+
+As an initial step, the IG has created draft Web Media Integration Guidelines.
+
+
+# Slide 10
+
+... and this brings us to the end of our tour of the Media and Entertainment IG. If you are interested, please do join us, we would love to have you.
+
