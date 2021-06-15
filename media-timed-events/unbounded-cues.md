@@ -23,7 +23,8 @@ Refer to the following discussion:
 * WebVTT issue [#496](https://github.com/w3c/webvtt/issues/496)
 * Media & Entertainment Interest Group Media Timed Event Task Force call, [15 March 2021](https://www.w3.org/2021/03/15-me-minutes.html#t02)
 * Media & Entertainment Interest Group Media Timed Event Task Force call, [19 April 2021](https://www.w3.org/2021/04/19-me-minutes.html#t01)
-* Timed Text Working Group call, [29 April 2021](https://lists.w3.org/Archives/Public/public-tt/2021Apr/0008.html)
+* Timed Text Working Group call, [29 April 2021](https://www.w3.org/2021/04/29-tt-minutes.html)
+* Timed Text Working Group call, [13 May 2021](https://www.w3.org/2021/05/13-tt-minutes.html)
 * [WebVMT presentation at TPAC 2020](https://www.w3.org/2020/10/26-video-location-minutes.html)
 
 ## Stakeholders
