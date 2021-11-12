@@ -4,9 +4,9 @@ Repository for the Media & Entertainment Interest Group
 
 See also the following resources:
 
-* [IG Page](https://www.w3.org/2011/webtv/)
-* [IG Charter](https://www.w3.org/2019/06/me-ig-charter.html)
-* [IG Wiki](https://www.w3.org/2011/webtv/wiki/Main_Page) 
+* [Home Page](https://www.w3.org/2011/webtv/)
+* [Charter](https://www.w3.org/2021/06/me-ig-charter.html)
+* [Wiki](https://www.w3.org/2011/webtv/wiki/Main_Page) 
 
 ## Code of Conduct
 
