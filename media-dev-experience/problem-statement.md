@@ -22,11 +22,13 @@ Currently a W3C standard for allowing advanced functionality for mobile apps whi
 * Web App Store
 Ability for Web App developers to package their TV apps in a standard way and allow multiple embedded devices to download the apps.
 
-* TV API support
-HDR detection, Volume APIs, Linear Channels, Audio Configuration
-
 * Video Playback Layer Support
 Some devices always playback video on the lowest layer making it very diffucult to create experiences with an embedded video on top of a UI.
+
+* Webdriver for Testing
+Making it easier to remote control web browsers on embedded devices for automated testing
+
+* Eliminating need for Emulators
 
 Stakeholders
 ------------
