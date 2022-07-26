@@ -68,7 +68,7 @@ Contact
 Interested parties are encouraged to get in touch with the group, either through [GitHub issues](https://github.com/w3c/media-and-entertainment/issues) or the group's [public mailing-list](mailto:public-web-and-tv@w3.org). You may also contact the group's chairs or W3C team:
 
 * [Chris Needham](mailto:chris.needham@bbc.co.uk) - Chair
-* [Chris Lorenzo](mailto:pal@sandflow.com) - Chair
+* [Chris Lorenzo](mailto:Christopher_Lorenzo@Comcast.com) - Chair
 * [Tatsuya Igarashi](mailto:Tatsuya.Igarashi@sony.com) - Chair
 * [Kazuyuki Ashimura](mailto:ashimura@w3.org) - W3C team
 * [Francois Daoust](mailto:fd@w3.org) - W3C team
