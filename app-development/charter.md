@@ -9,7 +9,7 @@ The term "consumer product" is used here with the same meaning as in the [Web Me
 Background
 ----------
 
-The development and testing of web applications across consumer products remains challenging. We have identified two main areas to focus on, as described below.
+The development and testing of web applications across consumer products remains challenging. We have identified three main areas to focus on, as described below.
 
 ### The web development experience for consumer products
 
@@ -25,6 +25,16 @@ Yet users expect the UI to be as polished and smooth as media playback, with gra
 
 The browser contains other rendering and computing solutions which are near native speeds and can give developers more control and flexibility over device limits and UI janks. For instance, frameworks that leverage WebAssembly for computing and canvas-based technologies such as WebGL and WebGPU for rendering, could be used to create an optimized web runtime for developing UIs targeted at TV sets and set-top boxes.
 
+### API support for TV specific features
+
+Standards need to be created to allow browsers on TVs to expose TV-focused APIs, similar to how mobile-focused web APIs have been created to support the capabilities of mobile devices, such as touch events, Sensor APIs (accelerometer, gyroscope, etc.), the Geolocation API, and more.
+
+Some examples of APIs that would be useful include:
+
+* Video playback layer support - Some devices always playback video on the lowest layer making it very difficult to create experiences with an embedded video on top of a UI
+* Display capability detection, including where devices have separate planes for video and graphics rendering  - HDR support, resolution
+* Audio volume control
+* Audio configuration - stereo, surround speaker configuration
 
 Mission
 -------
@@ -38,7 +48,8 @@ The Application Development for Consumer Products task force is part of the Medi
 * Documenting common UI patterns that impact performance and may create UI jank on consumer products.
 * Documenting approaches that developers may consider to create optimized applications for consumer products: canvas-based rendering using WebGL or WebGPU, using WebAssembly for computing tasks and memory management, lazy loading of data and local storage, efficient integration of video playback within the UI, etc.
 * Evaluating merits and drawbacks of the previous approaches, e.g. on meeting accessibility requirements.
-
+* Documenting requirements for APIs that expose TV device specific functions.
+* Evaluating existing TV industry standards that include APIs for TV device specific functions.
 
 Success criteria
 ----------------
@@ -50,6 +61,7 @@ The task force has succeeded if it can propose the following deliverables to the
 * An analysis of common UI patterns that negatively impact performance on consumer products.
 * An analysis of approaches that can be used to avoid UI janks on consumer products.
 * An analysis of possible standardisation needs for defining an efficient web runtime for consumer products.
+* An analysis of requirements for web APIs that expose TV device specific functions.
 
 The task force may decide to group analyses in one or more report.
 
@@ -61,15 +73,15 @@ The following are out of scope for the task force:
 
 * Creating a benchmark of existing consumer products.
 * Recommending performance requirements for consumer products.
-* The technical development of standards.
+* The technical development of standards or API proposals.
 
 
 Stakeholders
 ------------
 
-* TV application developers
-* TV, set-top box, and media streaming device manufacturers
-* Browser vendors and browser integrators
+* TV application developers.
+* TV, set-top box, and media streaming device manufacturers.
+* Browser vendors and browser integrators.
 
 
 Contact
