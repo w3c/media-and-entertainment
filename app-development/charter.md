@@ -27,14 +27,7 @@ The browser contains other rendering and computing solutions which are near nati
 
 ### API support for TV specific features
 
-Standards need to be created to allow browsers on TVs to expose TV-focused APIs, similar to how mobile-focused web APIs have been created to support the capabilities of mobile devices, such as touch events, Sensor APIs (accelerometer, gyroscope, etc.), the Geolocation API, and more.
-
-Some examples of APIs that would be useful include:
-
-* Video playback layer support - Some devices always playback video on the lowest layer making it very difficult to create experiences with an embedded video on top of a UI
-* Display capability detection, including where devices have separate planes for video and graphics rendering  - HDR support, resolution
-* Audio volume control
-* Audio configuration - stereo, surround speaker configuration
+Standards need to be created to allow browsers on TVs to expose TV device specific functions, similar to how mobile-focused web APIs have been created to support the capabilities of mobile devices, such as touch events, Sensor APIs (accelerometer, gyroscope, etc.), the Geolocation API, and more.
 
 Mission
 -------
