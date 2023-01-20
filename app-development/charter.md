@@ -13,9 +13,7 @@ The development and testing of web applications across consumer products remains
 
 ### The web development experience for consumer products
 
-Developers typically run an HTTP server on their computer and test their web application using localhost. Each TV manufacturer has a different approach to loading a web application on a TV. Most require creating unique developer accounts, deploying an application to a hosted endpoint, or packaging the app to deploy it. This creates a slow developer feedback loop.
-
-Currently, each TV manufacturer has a different approach to loading a web application on a TV. Most require creating unique developer accounts, deploying an application to a hosted endpoint, or packaging the app to deploy it. Each is tedious and provides a slow developer feedback loop.
+Developers typically run an HTTP server on their computer and test their web application using localhost. Currently, each TV manufacturer has a different approach to loading a web application on a TV. Most require creating unique developer accounts, deploying an application to a hosted endpoint, or packaging the app to deploy it This creates a slow developer feedback loop.
 
 ### Performance of web applications on consumer products
 
