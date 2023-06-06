@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Media and Entertainment Interest Group Charter</title>
+
+    <link rel="stylesheet" href="https://www.w3.org/2005/10/w3cdoc.css" type="text/css" media="screen">
+    <link rel="stylesheet" type="text/css" href="https://www.w3.org/OldGuide/pubrules-style.css">
+    <link rel="stylesheet" type="text/css" href="https://www.w3.org/2006/02/charter-style.css">
+    <style>
+      main {
+        max-width: 60em;
+        margin: 0 auto;
+      }
+
+      ul#navbar {
+        font-size: small;
+      }
+
+      dt.spec {
+        font-weight: bold;
+      }
+
+      dt.spec new {
+        background: yellow;
+      }
+
+      ul.out-of-scope > li {
+        font-weight: bold;
+      }
+
+      ul.out-of-scope > li > ul > li{
+        font-weight: normal;
+      }
+
+      .issue {
+        background: cornsilk;
+        font-style: italic;
+      }
+
+      .todo {
+        color: #900;
+      }
+
+      footer {
+        font-size: small;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <aside>
+        <ul id="navbar">
+          <li><a href="#scope">Scope</a></li>
+          <li><a href="#deliverables">Deliverables</a></li>
+          <li><a href="#success-criteria">Success Criteria</a></li>
+          <li><a href="#coordination">Coordination</a></li>
+          <li><a href="#participation">Participation</a></li>
+          <li><a href="#communication">Communication</a></li>
+          <li><a href="#decisions">Decision Policy</a></li>
+          <li><a href="#patentpolicy">Patent Disclosures</a></li>
+          <li><a href="#licensing">Licensing</a></li>
+          <li><a href="#about">About this Charter</a></li>
+        </ul>
+      </aside>
+      <p>
+        <a href="https://www.w3.org/"><img alt="W3C" height="48" src="https://www.w3.org/Icons/w3c_home" width="72"></a>
+      </p>
+    </header>
+
+
+    <main>
+      <h1 id="title"><i class="todo">PROPOSED</i> Media and Entertainment Interest Group Charter</h1>
+      <!-- delete PROPOSED after AC review completed -->
+
+      <p class="mission">The <strong>mission</strong> of the <a
+          href="/2011/webtv/">Media and Entertainment Interest Group</a>
+          is to provide a forum for media-related technical discussions to
+          track progress of media features on the Web within W3C groups and
+          use of Web technologies by external organizations, and to identify use
+          cases and requirements that existing and/or new specifications need to
+          meet to achieve improved support for media services on the Web.
+      </p>
+      <!-- the link to the group is ALWAYS that available from https://www.w3.org/groups/wg or https://www.w3.org/groups/ig because each group page can then point to a different homepage, but not the other way around. -->
+
+      <div class="noprint">
+        <p class="join"><a href="https://www.w3.org/2004/01/pp-impl/46300/join">Join the Media and Entertainment Interest Group</a>.</p>
+      </div>
+
+         <p style="padding: 0.5ex; border: 1px solid green"> This proposed charter is available
+      on <i class="todo"><a href="https://github.com/w3c/media-and-entertainment">GitHub</a>.
+
+    Feel free to raise <a href="https://github.com/w3c/media-and-entertainment/issues">issues</a></i>.
+          </p>
+
+      <div id="details">
+        <table class="summary-table">
+          <tr id="Status">
+            <th>
+              Charter Status
+            </th>
+            <td>
+              <i class="todo">See the <a href="https://www.w3.org/groups/wg/me/charters">group status page</A> and <a href="#history">detailed change history</a>.</i>
+            </td>
+          </tr>
+          <tr id="Duration">
+            <th>
+              Start date
+            </th>
+            <td>
+              <i class="todo">[dd monthname yyyy] (date of the "Call for Participation", when the charter is approved)</i>
+            </td>
+          </tr>
+          <tr id="CharterEnd">
+            <th>
+              End date
+            </th>
+            <td>
+              <i class="todo">[dd monthname yyyy]</i> (Start date + 2 years)
+            </td>
+          </tr>
+          <tr>
+            <th>
+              Chairs
+            </th>
+            <td>
+              Tatsuya Igarashi (Sony), Chris Needham (BBC), Christopher Lorenzo (Comcast)
+            </td>
+          </tr>
+          <tr>
+            <th>
+              Team Contacts
+            </th>
+            <td>
+              <a href="mailto:ashimura@w3.org">Kazuyuki Ashimura</a> (0.1 <abbr title="Full-Time Equivalent">FTE</abbr>)
+            </td>
+          </tr>
+          <tr>
+            <th>
+              Meeting Schedule
+            </th>
+            <td>
+              <strong>Teleconferences:</strong> A regular teleconference will be held, at least quarterly, with additional calls as
+              required. Task Forces may have separate calls that will not
+              overlap with
+              others.
+              <br />
+              <strong>Face-to-face:</strong> we will meet during the W3C's annual Technical Plenary week; additional face-to-face meetings may be scheduled by consent of the participants, usually no more than 1 per year.
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <section id="scope" class="scope">
+        <h2>Scope</h2>
+        <p>
+          The Media and Entertainment Interest Group's scope covers Web technologies used
+          in the end-to-end pipeline
+          &mdash; including capture, production, distribution and consumption &mdash;
+          of continuous experiences, which are here defined as videos, sound recordings, associated
+          technologies such as timed text, and input/output mechanisms used to
+          engage users.
+        </p>
+
+        <p>Topics and areas that are in-scope for the Interest Group include:</p>
+        <ul>
+          <li>clients and devices (general-purpose browsers, televisions, tablets, phones, game consoles, cloud browsers, professional cameras)</li>
+          <li>media providers (streaming web sites, terrestrial, cable, IPTV, satellite systems)</li>
+          <li>media production (capture, identification, metadata, content enrichment)</li>
+          <li>media transport and control (formats, packaging, storage, synchronization)</li>
+          <li>accessibility of media experiences and standards</li>
+        </ul>
+
+        <section id="section-out-of-scope">
+          <h3 id="out-of-scope">Out of Scope</h3>
+          <p>The technical development of standards is not in scope for the
+              Interest Group. Technical discussions are expected to take place
+              within the appropriate W3C groups if such a group exists, or within a
+              dedicated Community Group or Business Group when incubation is needed.</p>
+        </section>
+
+      </section>
+
+      <section id="deliverables">
+        <h2>
+          Deliverables
+        </h2>
+
+        <p>
+            The primary deliverables of the Media and Entertainment Interest Group are IG Notes
+            that identify requirements for existing and/or new technical
+            specifications and gaps in the Web Platform.
+        </p>
+
+        <p>Updated document status is available on the <a href="https://www.w3.org/groups/ig/me/publications">group publication status page</a>.</p>
+
+        <section id="normative">
+          <h3>
+            Normative Specifications
+          </h3>
+          <p>
+              The Interest Group will not deliver any normative specifications.
+          </p>
+        </section>
+
+        <section id="ig-other-deliverables">
+          <h3>
+            Other Deliverables
+          </h3>
+          <p>
+              Other non-normative documents may be created such as:
+          </p>
+          <ul>
+              <li>Use case and requirement documents</li>
+              <li>Primer or best practice documents to support web developers when designing applications</li>
+          </ul>
+        </section>
+
+        <section id="timeline">
+          <h3>Timeline</h3>
+          <p>The IG will, during its lifetime, undertake different activities that may proceed in parallel. No specific timeline has been identified at this point, but the various activities are intended to be running for short periods of time (2-12 months), with the possibility of running a few iterations of them.</p>
+        </section>
+      </section>
+
+	<section id="success-criteria">
+	  <h2>Success Criteria</h2>
+        <p>The Interest Group will have succeeded if it can achieve outcomes including:</p>
+        <ul>
+          <li>Participation via mailing list or GitHub issues from people
+            representing various stakeholder communities, including media professionals, broadcasters,
+            hardware and software developers, telecom companies, cable operators,
+            application developers, regulators, and users</li>
+          <li>Members of the Interest Group join relevant Working Groups and drive the
+            development of work items</li>
+          <li>Members of the Interest Group start or join related Community/Business Groups and
+            contribute to creating Interest Group Notes</li>
+          <li>Constructive feedback on W3C deliverables posted for review on the
+            <a href="https://lists.w3.org/Archives/Public/public-web-and-tv/">Media and
+            Entertainment IG mailing list</a></li>
+          <li>Engagement and coordination with other organizations in the media
+            industry to promote implementation of W3C standards,
+            including Candidate Recommendations and Recommendations</li>
+        </ul>
+
+        <p>To achieve this, the Interest Group will organize regular
+        conference calls to update members on progress of work items, and to
+        invite other groups and organizations to present their work to
+        Interest Group participants. The group will also undertake a number of
+        tasks, including:</p>
+        <ul>
+          <li>Identification of requirements for improved support for
+            media-centric applications on the Web platform, possibly through
+            the creation of Task Forces</li>
+          <li>Incubation of technical solutions for the identified requirements by
+            supporting the creation of or discussion in existing Community Groups or Business Groups focusing on
+            particular topics</li>
+          <li>Suggesting to existing Working Groups that they include particular topics in
+            their scope as appropriate</li>
+          <li>Tracking and review of media-related deliverables developed by
+            other W3C groups, and reporting of issues as appropriate</li>
+          <li>Coordination with other organizations in the media industry to
+            gather knowledge, coordinate input into W3C efforts, and promote
+            development and use of W3C standards within global media specifications</li>
+          <li>Ensuring issues of accessibility, device independence,
+          internationalization, performance, privacy, and security are all given
+          due consideration in all discussions and outcomes</li>
+        </ul>
+
+    <!-- Design principles -->
+    <p>This Interest Group expects to follow the
+    TAG <a href="https://www.w3.org/TR/design-principles/">Web Platform Design Principles</a>.
+    </p>
+	</section>
+
+      <section id="coordination">
+        <h2>Coordination</h2>
+        <p>For all deliverables, this Interest Group will seek <a href="https://www.w3.org/Guide/documentreview/#how_to_get_horizontal_review">horizontal review</a> for accessibility, internationalization, performance, privacy, and security with the relevant Working and Interest Groups, and with the <a href="https://www.w3.org/2001/tag/" title="Technical Architecture Group">TAG</a>.
+        Invitation for review must be issued during each major document transition, including <a href="https://www.w3.org/Consortium/Process/#WGNote">IG Note</a>.
+        The Interest Group is encouraged to engage collaboratively with the horizontal review groups throughout the development of each deliverable.
+        The Interest Group is advised to seek a review at least 3 months before first entering <a href="https://www.w3.org/Consortium/Process/#WGNote">IG Note</a> and is encouraged to proactively notify the horizontal review groups when major changes occur in a specification following a review.</p>
+
+        <p>The scope of the Media and Entertainment Interest Group includes
+            tracking and review of media-related deliverables developed by other
+            W3C groups, as well as coordination with other organizations in the
+            media industry. As such, the Media and Entertainment Interest Group intends to
+            coordinate around media topics with other groups and organizations as
+            needed, per the
+            <a href="https://www.w3.org/Consortium/Process/#WGCharter">W3C
+                Process Document</a>. As of the day of chartering, the following
+            groups and organizations have been identified. Changes to these lists
+            will be documented on the
+            <a href="https://www.w3.org/2011/webtv/">Interest Group's home
+                page</a>.</p>
+
+        <section>
+          <h3 id="w3c-coordination">W3C Groups</h3>
+
+<!-- WGs -->
+            <dt><a href="https://www.w3.org/WAI/APA/">Accessible Platform Architectures (APA) WG</a></dt>
+            <dd>The APA Working Group conducts horizontal reviews of accessibility requirements and develops accessibility user requirements for media that are of particular interest for a number of topics investigated by the Media and Entertainment Interest Group. The Interest Group expects to collaborate with the APA Working Group on updates to the <a href="https://www.w3.org/TR/media-accessibility-reqs/">Media Accessibility User Requirements (MAUR)</a>.</dd>
+
+            <dt><a href="https://www.w3.org/2011/audio/">Audio WG</a></dt>
+            <dd>The Audio Working Group develops the <a href="https://www.w3.org/TR/webaudio/">Web Audio API</a> specification for processing and synthesizing audio in web applications.</dd>
+
+            <dt><a href="https://www.w3.org/auto/wg/">Automotive WG</a> and <a href="https://www.w3.org/community/autowebplatform/">Automotive and Platform Business Group</a></dt>
+            <dd>Both groups develop specifications and use cases for media players embedded in in-vehicle infotainment systems.</dd>
+
+            <dt><a href="https://www.w3.org/Style/CSS/members">CSS WG</a></dt>
+            <dd>The CSS Working Group develops specifications that are of particular interest to media companies such as efforts to bring High Dynamic Range (HDR) content and Wide-gamut colors to the web.</dd>
+
+            <dt><a href="https://www.w3.org/2020/gpu/">GPU for the Web WG</a></dt>
+            <dd>The GPU for the Web Working Group develops specifications that provide an interface between the Web Platform and modern 3D graphics and computation capabilities present on native system platforms. Scope includes capabilities for rendering media as textures.</dd>
+
+            <dt><a href="https://www.w3.org/immersive-web/">Immersive Web WG</a></dt>
+            <dd>The Immersive Web Working Group develops APIs to interact with XR devices and sensors in browsers.</dd>
+
+            <dt><a href="https://www.w3.org/media-wg/">Media WG</a></dt>
+            <dd>The Media Working Group develops and improves client-side media processing and playback features on the Web.</dd>
+
+            <dt><a href="https://www.w3.org/2014/secondscreen/">Second Screen WG</a></dt>
+            <dd>The Second Screen Working Group develops specifications that allows a web page to request display and take control of a second screen.</dd>
+
+            <dt><a href="https://www.w3.org/AudioVideo/TT/">Timed Text WG</a></dt>
+            <dd>The Timed Text Working Group develops specifications for the representation of timed text in media.</dd>
+
+            <dt><a href="https://www.w3.org/WoT/WG/">Web of Things WG</a> and <a href="https://www.w3.org/WoT/IG/">Web of Things IG</a></dt>
+            <dd>The Web of Things Working Group and Interest Group discuss the architecture, the data model and related technologies for the Web of Things. Those specifications could be useful to model some of the features investigated by the Media and Entertainment Interest Group, e.g., for device integration.</dd>
+
+            <dt><a href="https://www.w3.org/WebPlatform/WG">Web Platform WG</a></dt>
+            <dd>The Web Platform Working Group develops the core HTML standard that specifies the media player of the web platform. The group also develops other interfaces that are particularly relevant for the media industry, such as the <code>KeyboardEvent</code> interface with dedicated keys and values for TV/media remote controls.</dd>
+
+            <dt><a href="https://www.w3.org/2011/04/webrtc/">Web Real-Time Communications WG</a></dt>
+            <dd>The Web Real-Time Communications Working Group develops APIs for media capture, media recording and media processing.</dd>
+
+            <dt><a href="https://www.w3.org/groups/wg/webtransport">WebTransport WG</a></dt>
+            <dd>The WebTransport Working Group develops APIs that enable data transfer between browsers and servers with support for multiple data flows, unidirectional data flows, out-of-order delivery, variable reliability and pluggable protocols. Those specifications could be useful to transfer media and control them.</dd>
+
+<!-- IGs -->
+            <dt><a href="https://www.w3.org/groups/ig/web-networks">Web & Networks IG</a></dt>
+            <dd>The Web & Networks Interest Group explores solutions for web applications to leverage network capabilities in order to achieve better performance and resource allocation, both on the device and network.</dd>
+
+<!-- CGs -->
+            <dt><a href="https://www.w3.org/community/audio-description/">Audio Description CG</a></dt>
+            <dd>The Audio Description Community Group aims to create an open standard file format to support audio description from production to distribution.</dd>
+
+            <dt><a href="https://www.w3.org/community/av4browsers/">Audiovisual Media Formats For Browsers CG</a></dt>
+            <dd>The Audiovisual Media Formats For Browsers Community Group discusses features of open and commercial audio-visual media formats that are relevant to web technologies used in browsers, streaming media devices, and TVs.</dd>
+
+            <dt><a href="https://www.w3.org/community/colorweb/">Color on the Web CG</a></dt>
+            <dd>The Color on the Web Community Group discusses support for High-Dynamic Range, wide-gamut color and related topics on the web.</dd>
+
+            <dt><a href="https://www.w3.org/community/games/">Games CG</a></dt>
+            <dd>The Games Community Group tracks technologies needed for the development of games on the Web.</dd>
+
+            <dt><a href="https://www.w3.org/community/httpslocal/">HTTPS in Local Network CG</a></dt>
+            <dd>The HTTPS in Local Network Community Group (CG)
+            explores the manner of secure communication between
+            browsers and server-capable devices in local network such
+            as set-top boxes and network attached storages.</dd>
+
+            <dt><a href="https://www.w3.org/community/immersive-web/">Immersive Web CG</a></dt>
+            <dd>The Immersive Web Community Group incubates additional proposals to interact with XR devices and sensors in browsers.</dd>
+
+            <dt><a href="https://www.w3.org/community/inbandtracks/">Media Resource in-band Tracks CG</a></dt>
+            <dd>How user agents should expose in-band tracks as HTML5 media element video, audio and text tracks so that Web applications can access the in-band track information</dd>
+
+            <dt><a href="https://www.w3.org/community/webtiming/">Multi-device Timing CG</a></dt>
+            <dd>Support multi-device timing in media applications, such as multi-screen presentations</dd>
+
+            <dt><a href="https://www.w3.org/community/publishingbg/">Publishing BG</a></dt>
+            <dd>The focal point of the <a href="https://www.w3.org/publishing/">Publishing@W3C</a>, which works on issues to make publications on the Web more capable, more beautiful, more accessible, and easier. The main expectation for the collaboration with MEIG is business and technical discussion on digital publishing with other media and entertainment topics, e.g., (1) immersive reading of digital publications with immersive web technologies, (2) <a href="https://www.w3.org/2011/audio/">audiobooks</a> in an interoperable manner, and (3) <a href="https://www.w3.org/community/sync-media-pub/">synchronized audio/video</a> with Web Publications.</dd>
+
+            <dt><a href="https://www.w3.org/community/webscreens/">Second Screen CG</a></dt>
+            <dd>The Second Screen Community Group, companion group of the Second Screen Working Group, discusses the development of an Open Screen Protocol to improve the interoperability between first and second screens.</dd>
+
+            <dt><a href="https://www.w3.org/community/wicg/">Web Platform Incubator CG</a></dt>
+            <dd>The Web Platform Incubator Community Group incubates a number of proposals from the community, including media-relevant ideas such as <a href="https://github.com/WICG/canvas-color-space">Canvas Color Spaces</a>, <a href="https://wicg.github.io/video-rvfc/">HTMLMediaElement.requestVideoFrameCallback()</a>, and <a href="https://wicg.github.io/media-feeds/">Media Feeds</a>.</dd>
+
+            <dt><a href="https://www.w3.org/community/webmediaapi/">Web Media API CG</a></dt>
+            <dd>The Web Media API Community Group incubates a minimum set of web technologies that developers of media web applications can rely on being supported across devices. The group was proposed by and continues to cooperate with the <a href="https://cta.tech/WAVE">CTA WAVE Project</a>.</dd>
+          </dl>
+        </section>
+
+        <section>
+          <h3 id="external-coordination">External Organizations</h3>
+          <p>There are a number of external groups working in areas related to the ones
+in scope for the Media and Entertainment IG. The Interest Group should determine whom to
+communicate with and then maintain communication with them. The following
+groups are likely to be important: </p>
+          <dl>
+            <dt><a href="https://aomedia.org/">Alliance for Open Media</a></dt>
+            <dd>The Alliance for Open Media is founded by leading Internet
+            companies focused on developing next-generation media formats,
+            codecs and technologies.</dd>
+
+            <dt><a href="https://www.ansi.org/">ANSI</a></dt>
+            <dd>The American National Standards Institute is a private, non-profit
+                organization that oversees the development of voluntary consensus
+                standards for products, services, processes, systems, and personnel in
+                the US.</dd>
+
+            <dt><a href="https://www.arib.or.jp/english/">ARIB</a></dt>
+            <dd>The Association of Radio Industries and Businesses is aimed to conduct
+                investigation, research &amp; development and consultation of utilization
+                of radio waves from the view of developing radio industries, and to
+                promote realization and popularization of new radio systems in the field
+                of telecommunications and broadcasting.</dd>
+
+            <dt><a href="https://www.atsc.org/cms/">ATSC</a></dt>
+            <dd>The Advanced Television Systems Committee provides standards for
+                digital television transmission over terrestrial, cable, and satellite
+                networks.</dd>
+
+            <dt><a href="https://www.cablelabs.com/">CableLabs</a></dt>
+            <dd>Cable Television Laboratories, Inc. is a non-profit research and
+                development consortium that has cable operators as its members, and works
+                for requirements for new technologies and new services.</dd>
+
+            <dt><a href="https://www.cta.tech/">CTA</a></dt>
+            <dd>The Consumer Technology Association is the trade
+                organization for the consumer electronics industry,
+                which promotes the consumer technology industry
+                through technology policy, events, research, promotion
+                and the fostering of business and strategic
+                relationships. CTA organizes the annual Consumer
+                Electronics Show (CES), and hosts the
+                <a href="https://cta.tech/WAVE">CTA
+                WAVE project</a>, which led to the development of an annual
+                HTML5 test suite for consumer devices.</dd>
+
+            <dt><a href="https://www.dvb.org">DVB Project</a></dt>
+            <dd>The Digital Video Broadcasting Project is an industry-led
+                consortium of broadcasters, manufacturers, telecomm companies,
+                cable operators, software developers, regulatory bodies and
+                others in over 35 countries committed to designing open
+                technical standards for the global delivery of digital
+                television and data services.</dd>
+
+            <dt><a href="https://www.ebu.ch/">EBU</a></dt>
+            <dd>The European Broadcasting Union is an alliance of public service media
+                organizations, comprising 74 Active Members in 56 countries and 37
+                Associate Members from a further 22 countries. Its mission is to defend
+                the interests of public service media (PSM) and to promote their
+                indispensable contribution to modern society.</dd>
+
+            <dt><a href="https://www.etsi.org/">ETSI</a></dt>
+            <dd>The European Telecommunications Standards Institute produces
+                globally-applicable standards for Information and Communications
+                Technologies (ICT), including fixed, mobile, radio, converged, broadcast
+                and internet technologies.</dd>
+
+            <dt><a href="https://www.hbbtv.org/">HbbTV Consortium</a></dt>
+            <dd>The HbbTV consortium is a pan‐European initiative founded by both
+                television broadcasters and CE companies and is aimed at providing an
+                alternative to proprietary technologies and delivering an open platform
+                for broadcasters to deliver value added on‐demand services to the end
+                consumer.</dd>
+
+            <dt><a href="https://www.ietf.org/">IETF</a></dt>
+            <dd>Internet Engineering Task Force is an open-standards development
+                organization which develops and promotes Internet standards, cooperating
+                closely with the W3C and ISO/IEC standards bodies and dealing in
+                particular with standards of the TCP/IP and Internet protocol suite.</dd>
+
+            <dt><a href="https://www.iptvforum.jp/en/">IPTVF-J</a></dt>
+            <dd>IPTV Forum Japan was established to promote the standardization of IPTV
+                receivers and services and also promote the wide use and enhancement of
+                defined standards. It aims to achieve this by standardizing technical
+                specifications that provide current and future receivers with IPTV
+                capability and thereby allow broadcasting and telecommunication to
+                coexist.</dd>
+
+            <dt><a href="https://www.iso.org/committee/45316.html">ISO/IEC JTC 1/SC 29</a></dt>
+            <dd>The ISO/IEC JTC 1/SC 29 committee (formerly known as
+              <abbr title="Moving Picture Experts Group">MPEG</abbr>) develops
+              standards for coded representation of digital audio, picture,
+              video, multimedia and hypermedia information.</dd>
+
+            <dt><a href="https://www.itu.int/ITU-T/">ITU-T</a></dt>
+            <dd>ITU Telecommunication Standardization Sector is the part of the UN
+                agency ITU that defines elements in information and communication
+                technologies infrastructure. Their work includes Multimedia Application
+                Framework for IPTV services. For example, H.762: Lightweight interactive
+                multimedia framework for IPTV services (LIME) gives a subset of HTML, CSS
+                and ECMAScript for use in IPTV terminals.</dd>
+
+            <dt><a href="https://www.oasis-open.org/home/index.php">OASIS</a></dt>
+            <dd>Organization for the Advancement of Structured Information Standards is
+                a not-for-profit consortium that promotes industry consensus and produces
+                worldwide standards for security, Cloud computing, SOA, Web services, the
+                Smart Grid, electronic publishing, emergency management, and other areas.
+              </dd>
+
+            <dt><a href="http://forumsbtvd.org.br/">SBTVD</a></dt>
+            <dd>The Fórum do Sistema Brasileiro de TV Digital Terrestre is the
+                Brazilian organization which edits the Ginga specifications widely spread
+                in Latin America. Ginga-NCL integrates a web component and some liaison
+                should be considered at some point.</dd>
+
+            <dt><a href="https://www.smpte.org/">SMPTE</a></dt>
+            <dd>The Society of Motion Picture and Television Engineers, founded in 1916
+                as the Society of Motion Picture Engineers or SMPE, is an international
+                professional association, based in the United States of America, of
+                engineers working in the motion imaging industries. An internationally
+                recognized standards organizations, SMPTE has over 400 standards,
+                Recommended Practices and Engineering Guidelines for television
+                production, film making, digital cinema, audio recording and medical
+                imaging.</dd>
+          </dl>
+
+          <p>(This is not intended as an exhaustive list, but illustrative of groups
+          working on related technologies.)</p>
+        </section>
+      </section>
+
+      <section class="participation">
+        <h2 id="participation">
+          Participation
+        </h2>
+        <p>
+          To be successful, this Interest Group is expected to have 6 or more active participants for its duration, including representatives from key media industries, and active Task Force leaders. The Chairs and Task Force leaders are expected to contribute half of a working day per week towards the Interest Group. There is no minimum requirement for other Participants.
+        </p>
+        <p>
+          The group encourages questions, comments and issues on its public mailing lists and document repositories, as described in <a href='#communication'>Communication</a>.
+        </p>
+        <p>
+          The group also welcomes non-Members to contribute technical submissions for consideration upon their agreement to the terms of the <a href="https://www.w3.org/Consortium/Patent-Policy/">W3C Patent Policy</a>.
+        </p>
+        <p>Participants in the group are required (by the <a href="https://www.w3.org/Consortium/Process/#ParticipationCriteria">W3C Process</a>) to follow the
+          W3C <a href="https://www.w3.org/Consortium/cepc/">Code of Ethics and Professional Conduct</a>.</p>
+      </section>
+
+
+
+      <section id="communication">
+        <h2>
+          Communication
+        </h2>
+        <p id="public">
+          Technical discussions for this Interest Group are conducted in <a href="https://www.w3.org/Consortium/Process/#confidentiality-levels">public</a>: the meeting minutes from teleconference and face-to-face meetings will be archived for public review, and technical discussions and issue tracking will be conducted in a manner that can be both read and written to by the general public. Working Drafts and Editor's Drafts of specifications will be developed in public repositories and may permit direct public contribution requests.
+        The meetings themselves are not open to public participation, however.
+        </p>
+        <p>
+          Information about the group (including details about deliverables, issues, actions, status, participants, and meetings) will be available from the <a href="https://www.w3.org/2011/webtv/">Media and Entertainment Interest Group home page</a>.
+        </p>
+        <p>
+          Most Media and Entertainment Interest Group teleconferences will focus on discussion of particular areas tracked or investigated by the group, and will be conducted on an as-needed basis.
+        </p>
+        <p>
+          This group primarily conducts its technical work
+          on <a id="public-github" href="https://github.com/w3c/media-and-entertainment/issues">GitHub issues</a>.
+          The public is invited to review, discuss and contribute to this work.
+        </p>
+        <p>
+          The group may use a Member-confidential mailing list for administrative purposes and, at the discretion of the Chairs and members of the group, for member-only discussions in special cases when a participant requests such a discussion.
+        </p>
+      </section>
+
+
+
+      <section id="decisions">
+        <h2>
+          Decision Policy
+        </h2>
+        <p>
+          This group will seek to make decisions through consensus and due process, per the <a href="https://www.w3.org/Consortium/Process/#Consensus">W3C Process Document (section 5.2.1, Consensus)</a>. Typically, an editor or other participant makes an initial proposal, which is then refined in discussion with members of the group and other reviewers, and consensus emerges with little formal voting being required.</p>
+        <p>
+           However, if a decision is necessary for timely progress and consensus is not achieved after careful consideration of the range of views presented, the Chairs may call for a group vote and record a decision along with any objections.
+        </p>
+        <p>
+          To afford asynchronous decisions and organizational deliberation, any resolution (including publication decisions) taken in a face-to-face meeting or teleconference will be considered provisional.
+
+          A call for consensus (CfC) will be issued for all resolutions (for example, via email, GitHub issue or web-based survey), with a response period from one week to 10 working days, depending on the chair's evaluation of the group consensus on the issue.
+
+          If no objections are raised by the end of the response period, the resolution will be considered to have consensus as a resolution of the Interest Group.
+        </p>
+        <p>
+          All decisions made by the group should be considered resolved unless and until new information becomes available or unless reopened at the discretion of the Chairs or the Director.
+        </p>
+        <p>
+          This charter is written in accordance with the <a href="https://www.w3.org/Consortium/Process/#Votes">W3C Process Document (Section 5.2.3, Deciding by Vote)</a> and includes no voting procedures beyond what the Process Document requires.
+        </p>
+      </section>
+
+
+
+      <section id="patentpolicy">
+        <h2>Patent Disclosures </h2>
+        <p>The Interest Group provides an opportunity to
+          share perspectives on the topic addressed by this charter. W3C reminds
+          Interest Group participants of their obligation to comply with patent
+          disclosure obligations as set out in <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Disclosure">Section
+            6</a> of the W3C Patent Policy. While the Interest Group does not
+          produce Recommendation-track documents, when Interest Group
+          participants review Recommendation-track specifications from Working
+          Groups, the patent disclosure obligations do apply. For more information about disclosure obligations for this group,
+          please see the <a href="https://www.w3.org/groups/ig/[shortname]/ipr">licensing information</a>.</p>
+      </section>
+
+
+
+      <section id="licensing">
+        <h2>Licensing</h2>
+        <p>This Interest Group will use the <a href="https://www.w3.org/Consortium/Legal/copyright-software">W3C Software and Document license</a> for all its deliverables.</p>
+      </section>
+
+
+
+      <section id="about">
+        <h2>
+          About this Charter
+        </h2>
+        <p>
+          This charter has been created according to <a href="https://www.w3.org/Consortium/Process/#GAGeneral">section 3.4</a> of the <a href="https://www.w3.org/Consortium/Process/">Process Document</a>. In the event of a conflict between this document or the provisions of any charter and the W3C Process, the W3C Process shall take precedence.
+        </p>
+
+        <section id="history">
+          <h3>
+            Charter History
+          </h3>
+          <p>
+            The Media and Entertainment Interest Group was created in 2011 under
+            the name Web and TV Interest Group. Work in the
+            Interest Group led to the creation of a number of groups at W3C over
+            the years, set to incubate or standardize technical solutions,
+            including the <a href="https://www.w3.org/2014/secondscreen/">Second
+            Screen Working Group</a>, the
+            <a href="https://www.w3.org/2016/tvcontrol/">TV Control
+            Working Group</a>, as well as Community Groups such
+            as the <a href="https://www.w3.org/community/inbandtracks/">Media
+            Resource in-band Tracks CG</a>, the
+            <a href="https://www.w3.org/community/webmediaapi/">Web Media
+            API Community Group</a> and the
+            <a href="https://www.w3.org/community/webtiming/">Multi-device Timing
+            Community Group</a>. The Interest Group also provided use cases and
+            requirements to guide other groups at W3C and raised issues as needed
+            to convey needs of the media industry across existing groups, for
+            instance in the <a href="https://www.w3.org/html/wg/">HTML
+            Media Extensions Working Group</a>, <a href="https://www.w3.org/AudioVideo/TT/">Timed Text Working Group</a>, and
+            <a href="https://www.w3.org/WebPlatform/WG">Web Platform Working
+            Group</a>.
+          </p>
+
+
+          <p>The following table lists details of all changes from the initial charter, per the <a href="https://www.w3.org/Consortium/Process/#CharterReview">W3C Process Document (section 4.3, Advisory Committee Review of a Charter)</a>:</p>
+
+          <table class="history">
+            <tbody>
+              <tr>
+                <th>
+                  Charter Period
+                </th>
+                <th>
+                  Start Date
+                </th>
+                <th>
+                  End Date
+                </th>
+                <th>
+                  Changes
+                </th>
+              </tr>
+              <tr>
+                <th>
+                  <a href="https://www.w3.org/2010/09/webTVIGcharter.html">Initial Charter</a>
+                </th>
+                <td>
+                  7 February 2011
+                </td>
+                <td>
+                  28 February 2013
+                </td>
+                <td>
+                </td>
+              </tr>
+              <tr>
+                <th>
+                  <a href="https://www.w3.org/2012/11/webTVIGcharter.html">Rechartered</a>
+                </th>
+                <td>
+                  30 July 2013
+                </td>
+                <td>
+                  20 February 2015
+                </td>
+                <td>
+                  <ul>
+                    <li>Refined scope to match group's current activity</li>
+                    <li>Clarified list of topic and areas that the IG will investigate</li>
+                    <li>Updated the lists of related W3C groups in the Dependencies section</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th>
+                  <a href="https://www.w3.org/2012/11/webTVIGcharter.html">Extended</a>
+                </th>
+                <td>
+                  29 June 2015
+                </td>
+                <td>
+                  30 April 2017
+                </td>
+                <td>
+                  <ul>
+                    <li>Updated the possible example topics for the group's Notes at the Deliverables section based on the group's current activity</li>
+                    <li>Updated the lists of related W3C groups in the Dependencies section</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th>
+                  <a href="https://www.w3.org/2017/03/webtv-charter.html">Rechartered</a>
+                </th>
+                <td>
+                  13 June 2017
+                </td>
+                <td>
+                  30 April 2019
+                </td>
+                <td>
+                  <ul>
+                    <li>Group name updated to "Media and Entertainment IG"</li>
+                    <li>Group chairs updated</li>
+                    <li>Updated mission and scope to note importance of tracking progress within W3C groups and gathering needs from industries and external organizations; Also added "continuous media" (i.e. videos, sound recordings, and associated technologies) to clarify what "media" are in the scope of the group</li>
+                    <li>Added group's achievements during first years of existence</li>
+                    <li>Refreshed charter to use new charter template</li>
+                    <li>Updated the lists of related W3C groups in the Dependencies section</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th>
+                  <a href="https://www.w3.org/2017/03/webtv-charter.html">Extended</a>
+                </th>
+                <td>
+                  19 April 2019
+                </td>
+                <td>
+                  30 June 2019
+                </td>
+                <td>
+                  End date adjusted
+                </td>
+              </tr>
+              <tr>
+                <th>
+                  <a href="https://www.w3.org/2019/06/me-ig-charter.html">Rechartered</a>
+                </th>
+                <td>
+                  6 June 2019
+                </td>
+                <td>
+                  30 April 2021
+                </td>
+                <td>
+                  <ul>
+                    <li>Media Timed Events Task Force and deliverable mentioned</li>
+                    <li>Perspective document added to the list of deliverables</li>
+                    <li>List of groups and organizations refreshed</li>
+                    <li>Dynamic nature of liaisons noted</li>
+                    <li>Scope wording slightly adjusted to talk about "continuous experience", notably to clarify that interactivity is in scope</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                  <th>
+                      <a href="https://lists.w3.org/Archives/Member/w3c-ac-members/2019JulSep/0038.html">Chair update</a>
+                  </th>
+                  <td>
+                      11 September 2019
+                  </td>
+                  <td>
+                  </td>
+                  <td>
+                      Mark Vickers stepped down as co-Chair.<br/>
+                      Pierre-Anthony Lemieux appointed as co-Chair.
+                  </td>
+              </tr>
+              <tr>
+                <th>
+                  <a href="#">Extended</a>
+                </th>
+                <td>
+                  29 April 2021
+                </td>
+                <td>
+                  31 May 2021
+                </td>
+                <td>
+                  End date adjusted
+                </td>
+              </tr>
+              <tr>
+                <th>
+                  <a href="#">Chair update</a>
+                </th>
+                <td>
+                  29 April 2021
+                </td>
+                <td>
+                </td>
+                <td>
+                  Pierre-Anthony Lemieux steps down as co-Chair.<br/>
+                  Christopher Lorenzo appointed as co-Chair.
+                </td>
+              </tr>
+              <tr>
+                <th>
+                  <a href="">Rechartered</a>
+                </th>
+                <td>
+                  <span class="todo"><abbr title="To be determined">TBD</abbr></span>
+                </td>
+                <td>
+                  30 April 2023
+                </td>
+                <td>
+                  <ul>
+                    <li>Wording adjusted to match latest version of charter template</li>
+                    <li>Success criteria and tasks separated from scope</li>
+                    <li>Removed Media Timed Events Task Force</li>
+                    <li>Dropped perspective document</li>
+                    <li>Added Media Integration Guidelines</li>
+                    <li>List of groups and organizations refreshed</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section id="changelog">
+          <h3>Change log</h3>
+
+          <!-- Use this section for changes _after_ the charter was approved by the Director. -->
+          <p>Changes to this document are documented in this section.</p>
+          <!--
+          <dl id='changes'>
+            <dt>YYYY-MM-DD</dt>
+            <dd>[changes]]</dd>
+          </dl>
+          -->
+        </section>
+      </section>
+    </main>
+
+    <hr>
+
+    <footer>
+      <address>
+        <a href="mailto:ashimura@w3.org">Kazuyuki Ashimura</a>
+      </address>
+
+<p class="copyright">Copyright © <i class="todo">[yyyy]</i> <a href="https://www.w3.org/">World Wide Web Consortium</a>.<br>
+  <abbr title="World Wide Web Consortium">W3C</abbr><sup>®</sup>
+  <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>,
+  <a href="https://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a> and
+      <a rel="license" href="https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document" title="W3C Software and Document Notice and License">permissive document license</a> rules apply.</p>
+    </footer>
+
+  </body>
+</html>
