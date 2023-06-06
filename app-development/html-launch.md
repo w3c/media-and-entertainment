@@ -8,7 +8,7 @@ Summary
 Web app developers need a simple and unified solution to easily run their web applications on consumer products. Ideally this should be:
 
 * Enable Developer Mode on Consumer Product
-* On development browser, send URL to consumer product
+* Send URL to consumer product to load
 
 
 Background
@@ -35,6 +35,35 @@ Launching a browser URL on TV device would require
 * User to be on network with TV
 * TV to be in developer mode
 * Browser is a sandbox
+
+Additional Background
+---------------------
+
+### Samsung / Tizen App Development
+* https://docs.tizen.org/application/web/
+* https://docs.tizen.org/application/web/tutorials/process/app-dev-process/
+* https://developer.samsung.com/smarttv/develop/guides/fundamentals/configuring-tv-applications.html
+
+Requires packaging the app and digitally signing it with certificate. Tizen offers a hosted solution which requires approval.
+Launching app on development TV requires proprietary solution [SDB](https://developer.tizen.org/development/tizen-studio/web-tools/running-and-testing-your-app/sdb)
+
+
+### LG TV
+* https://webostv.developer.lge.com/develop/getting-started/build-your-first-web-app
+
+Uses IPK packaging format to bundle web app for TV
+Hosted solution still requires an installed package which refreshes to hosted URL
+Launching app on development TV requires proprietary solution [ARES](https://webostv.developer.lge.com/develop/tools/cli-dev-guide)
+
+### Roku
+* https://developer.roku.com/docs/developer-program/getting-started/roku-dev-prog.md
+
+Roku only supports BrightScript on their devices.
+
+### RDK
+* https://developer.rdkcentral.com/firebolt/documentation/build-apps/web-apps/startup-guide/?v=0.6
+
+RDK devices have unique ways per device for loading Web Applications. Uses WPE browser.
 
 Contact
 -------
