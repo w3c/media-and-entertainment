@@ -42,19 +42,35 @@ Refer to the following discussion:
 
 # High-level use cases
 
-## Use case 1: Updating a sports score
+## Use Case 1: Live chapterization
+Any time where we want to mark a piece of the video as a particular chapter but because it's a live video, we don't know when the current chapter will end.
 
-Cue value can be either text for subtitles or a JSON object for metadata
+### Example: Updating a sports score.
 
-## Use case 2: Updating subtitle caption cues
+Sports scores are basically a specific type of chapterization.
 
-## Use case 2a: Segmented WebVTT files
+The score during a live sports event is "0-0" at the start and may change to increase the score at an unknown future time.
+It isn't possible to know ahead of time for how long the initial "0-0" or any subsequent scores will last.
+We'd want to be able to transition from a score of "0-0" to "1-0" etc as soon as the new score is known and the previous score should no longer be active.
 
-## Use case 2b: WebVTT carried in fragmented MP4
+Cue value can be either text for subtitles or a JSON object for metadata.
 
-In both 2a and 2b, the cue value is a string
+## Use Case 2 Live Captioning
 
-## Use case 3: CEA-608/708 captions
+A potential use-case for unbounded cues is in supporting live captions.
+For VOD with pop-on captions, it's relatively easy to map things to cues as everything is known ahead of time and you can emit a cue at the end of a sentence.
+For live captions, it's not as simple. While a person is speaking in a live scenario, it may not be known when the sentence is finishing and delaying sending the cue until a good stopping point will mean that the captions are delayed and cause a bad user experience.
+Ideally, we'd want to send caption data on a regular basis to clients and have the client handle things as appropriate. This is one of the things that CEA-608/708 handle pretty well. Unfortunately, because it's encoded in video data it isn't ideal to send to clients, especially web-clients.
+
+The following sub-uses cases are less use cases and more ways of delivering live captioning right now to the client, with the exclusion of TTML/IMSC.
+
+### Use case 2a: Segmented WebVTT files
+
+WebVTT can be segmented for HLS delivery. The HLS specification [extends WebVTT with a header](https://datatracker.ietf.org/doc/html/draft-pantos-hls-rfc8216bis-09#section-3.1.4) which maps segment PTS values to local time, meaning, each VTT segment could start at 00:00:00.000 and the PTS value would be incremented to align the timings. Though, most commonly, the VTT cue timings are relative to the beginning of the stream rather than the current segment.
+
+### Use case 2c: WebVTT carried in fragmented MP4
+
+### Use case 2b: CEA-608/708 captions
 
 Some in-band text track formats (CEA-608/708) deliver cues with only a start time.
 In these formats a cue ends when the next cue or empty edit is delivered. In WebKit,
